@@ -1,0 +1,2162 @@
+{
+  "base_id": 57530000,
+  "location_base_id": 57630000,
+  "unlock_values": {
+    "locked": 2,
+    "new": 1,
+    "seen": 0
+  },
+  "always_locked_gamemodes": [
+    {
+      "name": "Power Cruising VS",
+      "offset": 171
+    },
+    {
+      "name": "Canoeing VS",
+      "offset": 203
+    },
+    {
+      "name": "Air Sports Dogfight",
+      "offset": 227
+    },
+    {
+      "name": "Cycling VS",
+      "offset": 239
+    }
+  ],
+  "cycling_drain_address": 2154809376,
+  "showdown_heart_mailbox_address": 2172649456,
+  "can_score_address": 2154767108,
+  "items": [
+    {
+      "name": "Swordplay Showdown",
+      "id": 57530000,
+      "kind": "gamemode",
+      "offset": 155
+    },
+    {
+      "name": "Swordplay Duel",
+      "id": 57530001,
+      "kind": "gamemode",
+      "offset": 159
+    },
+    {
+      "name": "Swordplay Speed Slice",
+      "id": 57530002,
+      "kind": "gamemode",
+      "offset": 163
+    },
+    {
+      "name": "Power Cruising",
+      "id": 57530003,
+      "kind": "gamemode",
+      "offset": 167
+    },
+    {
+      "name": "Frisbee Dog",
+      "id": 57530004,
+      "kind": "gamemode",
+      "offset": 179
+    },
+    {
+      "name": "Basketball 3-Point Contest",
+      "id": 57530005,
+      "kind": "gamemode",
+      "offset": 183
+    },
+    {
+      "name": "Basketball Pickup Game",
+      "id": 57530006,
+      "kind": "gamemode",
+      "offset": 187
+    },
+    {
+      "name": "Bowling Standard Game",
+      "id": 57530007,
+      "kind": "gamemode",
+      "offset": 191
+    },
+    {
+      "name": "Bowling 100-Pin Game",
+      "id": 57530008,
+      "kind": "gamemode",
+      "offset": 195
+    },
+    {
+      "name": "Bowling Spin Control",
+      "id": 57530009,
+      "kind": "gamemode",
+      "offset": 199
+    },
+    {
+      "name": "Canoeing Speed Challenge",
+      "id": 57530010,
+      "kind": "gamemode",
+      "offset": 207
+    },
+    {
+      "name": "Table Tennis Return Challenge",
+      "id": 57530011,
+      "kind": "gamemode",
+      "offset": 211
+    },
+    {
+      "name": "Table Tennis Match",
+      "id": 57530012,
+      "kind": "gamemode",
+      "offset": 215
+    },
+    {
+      "name": "Island Flyover",
+      "id": 57530013,
+      "kind": "gamemode",
+      "offset": 223
+    },
+    {
+      "name": "Frisbee Golf",
+      "id": 57530014,
+      "kind": "gamemode",
+      "offset": 235
+    },
+    {
+      "name": "Cycling Road Race",
+      "id": 57530015,
+      "kind": "gamemode",
+      "offset": 243
+    },
+    {
+      "name": "Skydiving",
+      "id": 57530016,
+      "kind": "gamemode",
+      "offset": 247
+    },
+    {
+      "name": "Swordplay Showdown: Bridge",
+      "id": 57530017,
+      "kind": "unlock",
+      "offset": 37000
+    },
+    {
+      "name": "Swordplay Showdown: Lighthouse",
+      "id": 57530018,
+      "kind": "unlock",
+      "offset": 37001
+    },
+    {
+      "name": "Swordplay Showdown: Beach",
+      "id": 57530019,
+      "kind": "unlock",
+      "offset": 37002
+    },
+    {
+      "name": "Swordplay Showdown: Mountain",
+      "id": 57530020,
+      "kind": "unlock",
+      "offset": 37003
+    },
+    {
+      "name": "Swordplay Showdown: Forest",
+      "id": 57530021,
+      "kind": "unlock",
+      "offset": 37004
+    },
+    {
+      "name": "Swordplay Showdown: Ruins",
+      "id": 57530022,
+      "kind": "unlock",
+      "offset": 37005
+    },
+    {
+      "name": "Swordplay Showdown: Waterfall",
+      "id": 57530023,
+      "kind": "unlock",
+      "offset": 37006
+    },
+    {
+      "name": "Swordplay Showdown: Cliffs",
+      "id": 57530024,
+      "kind": "unlock",
+      "offset": 37007
+    },
+    {
+      "name": "Swordplay Showdown: Castle",
+      "id": 57530025,
+      "kind": "unlock",
+      "offset": 37008
+    },
+    {
+      "name": "Swordplay Showdown: Volcano",
+      "id": 57530026,
+      "kind": "unlock",
+      "offset": 37009
+    },
+    {
+      "name": "Swordplay Showdown: Bridge Reverse",
+      "id": 57530027,
+      "kind": "unlock",
+      "offset": 37010
+    },
+    {
+      "name": "Swordplay Showdown: Lighthouse Reverse",
+      "id": 57530028,
+      "kind": "unlock",
+      "offset": 37011
+    },
+    {
+      "name": "Swordplay Showdown: Beach Reverse",
+      "id": 57530029,
+      "kind": "unlock",
+      "offset": 37012
+    },
+    {
+      "name": "Swordplay Showdown: Mountain Reverse",
+      "id": 57530030,
+      "kind": "unlock",
+      "offset": 37013
+    },
+    {
+      "name": "Swordplay Showdown: Forest Reverse",
+      "id": 57530031,
+      "kind": "unlock",
+      "offset": 37014
+    },
+    {
+      "name": "Swordplay Showdown: Ruins Reverse",
+      "id": 57530032,
+      "kind": "unlock",
+      "offset": 37015
+    },
+    {
+      "name": "Swordplay Showdown: Waterfall Reverse",
+      "id": 57530033,
+      "kind": "unlock",
+      "offset": 37016
+    },
+    {
+      "name": "Swordplay Showdown: Cliffs Reverse",
+      "id": 57530034,
+      "kind": "unlock",
+      "offset": 37017
+    },
+    {
+      "name": "Swordplay Showdown: Castle Reverse",
+      "id": 57530035,
+      "kind": "unlock",
+      "offset": 37018
+    },
+    {
+      "name": "Swordplay Showdown: Volcano Reverse",
+      "id": 57530036,
+      "kind": "unlock",
+      "offset": 37019
+    },
+    {
+      "name": "Island Flyover: Daytime",
+      "id": 57530037,
+      "kind": "unlock",
+      "offset": 36580
+    },
+    {
+      "name": "Island Flyover: Evening",
+      "id": 57530038,
+      "kind": "unlock",
+      "offset": 36581
+    },
+    {
+      "name": "Island Flyover: Night",
+      "id": 57530039,
+      "kind": "unlock",
+      "offset": 36582
+    },
+    {
+      "name": "Cycling Road Race: Around the Island",
+      "id": 57530040,
+      "kind": "unlock",
+      "offset": 2015
+    },
+    {
+      "name": "Cycling Road Race: To the Beach",
+      "id": 57530041,
+      "kind": "unlock",
+      "offset": 2019
+    },
+    {
+      "name": "Cycling Road Race: Across the Bridge",
+      "id": 57530042,
+      "kind": "unlock",
+      "offset": 2023
+    },
+    {
+      "name": "Cycling Road Race: Over Talon Rock",
+      "id": 57530043,
+      "kind": "unlock",
+      "offset": 2027
+    },
+    {
+      "name": "Cycling Road Race: Up the Volcano",
+      "id": 57530044,
+      "kind": "unlock",
+      "offset": 2031
+    },
+    {
+      "name": "Cycling Road Race: Into Maka Wuhu",
+      "id": 57530045,
+      "kind": "unlock",
+      "offset": 2035
+    },
+    {
+      "name": "Cycling Road Race: 3-Stage Race A",
+      "id": 57530046,
+      "kind": "unlock",
+      "offset": 2039
+    },
+    {
+      "name": "Cycling Road Race: 3-Stage Race B",
+      "id": 57530047,
+      "kind": "unlock",
+      "offset": 2043
+    },
+    {
+      "name": "Cycling Road Race: 6-Stage Race",
+      "id": 57530048,
+      "kind": "unlock",
+      "offset": 2047
+    },
+    {
+      "name": "Wakeboarding: Beginner",
+      "id": 57530049,
+      "kind": "unlock",
+      "offset": 1535
+    },
+    {
+      "name": "Wakeboarding: Intermediate",
+      "id": 57530050,
+      "kind": "unlock",
+      "offset": 1539
+    },
+    {
+      "name": "Wakeboarding: Expert",
+      "id": 57530051,
+      "kind": "unlock",
+      "offset": 1543
+    },
+    {
+      "name": "Canoeing Speed Challenge: Beginner",
+      "id": 57530052,
+      "kind": "unlock",
+      "offset": 1295
+    },
+    {
+      "name": "Canoeing Speed Challenge: Intermediate",
+      "id": 57530053,
+      "kind": "unlock",
+      "offset": 1299
+    },
+    {
+      "name": "Canoeing Speed Challenge: Expert",
+      "id": 57530054,
+      "kind": "unlock",
+      "offset": 1303
+    },
+    {
+      "name": "Archery: Beginner",
+      "id": 57530055,
+      "kind": "unlock",
+      "offset": 655
+    },
+    {
+      "name": "Archery: Intermediate",
+      "id": 57530056,
+      "kind": "unlock",
+      "offset": 659
+    },
+    {
+      "name": "Archery: Expert",
+      "id": 57530057,
+      "kind": "unlock",
+      "offset": 663
+    },
+    {
+      "name": "Power Cruising: Beach",
+      "id": 57530058,
+      "kind": "unlock",
+      "offset": 495
+    },
+    {
+      "name": "Power Cruising: Lagoon",
+      "id": 57530059,
+      "kind": "unlock",
+      "offset": 499
+    },
+    {
+      "name": "Power Cruising: Lighthouse",
+      "id": 57530060,
+      "kind": "unlock",
+      "offset": 503
+    },
+    {
+      "name": "Power Cruising: Marina",
+      "id": 57530061,
+      "kind": "unlock",
+      "offset": 507
+    },
+    {
+      "name": "Power Cruising: Cavern",
+      "id": 57530062,
+      "kind": "unlock",
+      "offset": 511
+    },
+    {
+      "name": "Power Cruising: Shoals",
+      "id": 57530063,
+      "kind": "unlock",
+      "offset": 515
+    },
+    {
+      "name": "Golf: Resort A (3-Hole)",
+      "id": 57530064,
+      "kind": "unlock",
+      "offset": 1775
+    },
+    {
+      "name": "Golf: Resort B (3-Hole)",
+      "id": 57530065,
+      "kind": "unlock",
+      "offset": 1779
+    },
+    {
+      "name": "Golf: Resort C (3-Hole)",
+      "id": 57530066,
+      "kind": "unlock",
+      "offset": 1783
+    },
+    {
+      "name": "Golf: Classic A (3-Hole)",
+      "id": 57530067,
+      "kind": "unlock",
+      "offset": 1787
+    },
+    {
+      "name": "Golf: Classic B (3-Hole)",
+      "id": 57530068,
+      "kind": "unlock",
+      "offset": 1791
+    },
+    {
+      "name": "Golf: Classic C (3-Hole)",
+      "id": 57530069,
+      "kind": "unlock",
+      "offset": 1795
+    },
+    {
+      "name": "Golf: Special (3-Hole)",
+      "id": 57530070,
+      "kind": "unlock",
+      "offset": 1799
+    },
+    {
+      "name": "Golf: Resort (9-Hole)",
+      "id": 57530071,
+      "kind": "unlock",
+      "offset": 1803
+    },
+    {
+      "name": "Golf: Classic (9-Hole)",
+      "id": 57530072,
+      "kind": "unlock",
+      "offset": 1807
+    },
+    {
+      "name": "Golf: 18-Hole",
+      "id": 57530073,
+      "kind": "unlock",
+      "offset": 1811
+    },
+    {
+      "name": "Frisbee Golf: Resort A (3-Hole)",
+      "id": 57530074,
+      "kind": "unlock",
+      "offset": 1855
+    },
+    {
+      "name": "Frisbee Golf: Resort B (3-Hole)",
+      "id": 57530075,
+      "kind": "unlock",
+      "offset": 1859
+    },
+    {
+      "name": "Frisbee Golf: Resort C (3-Hole)",
+      "id": 57530076,
+      "kind": "unlock",
+      "offset": 1863
+    },
+    {
+      "name": "Frisbee Golf: Classic A (3-Hole)",
+      "id": 57530077,
+      "kind": "unlock",
+      "offset": 1867
+    },
+    {
+      "name": "Frisbee Golf: Classic B (3-Hole)",
+      "id": 57530078,
+      "kind": "unlock",
+      "offset": 1871
+    },
+    {
+      "name": "Frisbee Golf: Classic C (3-Hole)",
+      "id": 57530079,
+      "kind": "unlock",
+      "offset": 1875
+    },
+    {
+      "name": "Frisbee Golf: Special (3-Hole)",
+      "id": 57530080,
+      "kind": "unlock",
+      "offset": 1879
+    },
+    {
+      "name": "Frisbee Golf: Resort (9-Hole)",
+      "id": 57530081,
+      "kind": "unlock",
+      "offset": 1883
+    },
+    {
+      "name": "Frisbee Golf: Classic (9-Hole)",
+      "id": 57530082,
+      "kind": "unlock",
+      "offset": 1887
+    },
+    {
+      "name": "Frisbee Golf: 18-Hole",
+      "id": 57530083,
+      "kind": "unlock",
+      "offset": 1891
+    },
+    {
+      "name": "Progressive Cycling Stamina Upgrade",
+      "id": 57530084,
+      "kind": "progressive_cycling",
+      "offset": null
+    },
+    {
+      "name": "Progressive Swordplay Showdown Heart Upgrade",
+      "id": 57530085,
+      "kind": "progressive_hearts",
+      "offset": null
+    },
+    {
+      "name": "Progressive Table Tennis Can Score Upgrade",
+      "id": 57530086,
+      "kind": "progressive_can_score",
+      "offset": null
+    },
+    {
+      "name": "Nothing",
+      "id": 57530087,
+      "kind": "filler",
+      "offset": null
+    }
+  ],
+  "locations": [
+    {
+      "name": "Swordplay Showdown - Not a Scratch",
+      "id": 57630000,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36076,
+      "stage_index": null
+    },
+    {
+      "name": "Swordplay Showdown - Sword Fighter",
+      "id": 57630001,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36080,
+      "stage_index": null
+    },
+    {
+      "name": "Swordplay Showdown - Perfect 10",
+      "id": 57630002,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36084,
+      "stage_index": null
+    },
+    {
+      "name": "Swordplay Showdown - Swordmaster",
+      "id": 57630003,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36088,
+      "stage_index": null
+    },
+    {
+      "name": "Swordplay Showdown - Untouchable",
+      "id": 57630004,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36092,
+      "stage_index": null
+    },
+    {
+      "name": "Swordplay Duel - Cliff-hanger",
+      "id": 57630005,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36096,
+      "stage_index": null
+    },
+    {
+      "name": "Swordplay Duel - Straight to the Point",
+      "id": 57630006,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36100,
+      "stage_index": null
+    },
+    {
+      "name": "Swordplay Duel - Met Your Match",
+      "id": 57630007,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36104,
+      "stage_index": null
+    },
+    {
+      "name": "Swordplay Duel - One-Hit Wonder",
+      "id": 57630008,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36108,
+      "stage_index": null
+    },
+    {
+      "name": "Swordplay Duel - Last Mii Standing",
+      "id": 57630009,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36112,
+      "stage_index": null
+    },
+    {
+      "name": "Swordplay Speed Slice - Slice and Dice",
+      "id": 57630010,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36116,
+      "stage_index": null
+    },
+    {
+      "name": "Swordplay Speed Slice - Slicing Machine",
+      "id": 57630011,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36120,
+      "stage_index": null
+    },
+    {
+      "name": "Swordplay Speed Slice - Psychic Slice",
+      "id": 57630012,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36124,
+      "stage_index": null
+    },
+    {
+      "name": "Swordplay Speed Slice - Double Time",
+      "id": 57630013,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36128,
+      "stage_index": null
+    },
+    {
+      "name": "Swordplay Speed Slice - A Cut Above",
+      "id": 57630014,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36132,
+      "stage_index": null
+    },
+    {
+      "name": "Power Cruising - Ringmaster",
+      "id": 57630015,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36136,
+      "stage_index": null
+    },
+    {
+      "name": "Power Cruising - 5,000-pointer",
+      "id": 57630016,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36140,
+      "stage_index": null
+    },
+    {
+      "name": "Power Cruising - Power Cruiser",
+      "id": 57630017,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36144,
+      "stage_index": null
+    },
+    {
+      "name": "Power Cruising - Power Jumper",
+      "id": 57630018,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36148,
+      "stage_index": null
+    },
+    {
+      "name": "Power Cruising - Leisure Cruiser",
+      "id": 57630019,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36152,
+      "stage_index": null
+    },
+    {
+      "name": "Archery - Bull Stampede",
+      "id": 57630020,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36176,
+      "stage_index": null
+    },
+    {
+      "name": "Archery - Sure Shot",
+      "id": 57630021,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36180,
+      "stage_index": null
+    },
+    {
+      "name": "Archery - Century Shot",
+      "id": 57630022,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36184,
+      "stage_index": null
+    },
+    {
+      "name": "Archery - A Secret to Everybody",
+      "id": 57630023,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36188,
+      "stage_index": null
+    },
+    {
+      "name": "Archery - Sharpshooter",
+      "id": 57630024,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36192,
+      "stage_index": null
+    },
+    {
+      "name": "Frisbee Dog - Good Dog",
+      "id": 57630025,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36196,
+      "stage_index": null
+    },
+    {
+      "name": "Frisbee Dog - Balloon Animal",
+      "id": 57630026,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36200,
+      "stage_index": null
+    },
+    {
+      "name": "Frisbee Dog - A for Effort",
+      "id": 57630027,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36204,
+      "stage_index": null
+    },
+    {
+      "name": "Frisbee Dog - Perfect Target",
+      "id": 57630028,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36208,
+      "stage_index": null
+    },
+    {
+      "name": "Frisbee Dog - Golden Arm",
+      "id": 57630029,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36212,
+      "stage_index": null
+    },
+    {
+      "name": "Basketball 3-Point Contest - Hot Streak",
+      "id": 57630030,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36216,
+      "stage_index": null
+    },
+    {
+      "name": "Basketball 3-Point Contest - Bonus Plumber",
+      "id": 57630031,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36220,
+      "stage_index": null
+    },
+    {
+      "name": "Basketball 3-Point Contest - Quick Draw",
+      "id": 57630032,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36224,
+      "stage_index": null
+    },
+    {
+      "name": "Basketball 3-Point Contest - Hot Hand",
+      "id": 57630033,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36228,
+      "stage_index": null
+    },
+    {
+      "name": "Basketball 3-Point Contest - Pure Shooter",
+      "id": 57630034,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36232,
+      "stage_index": null
+    },
+    {
+      "name": "Basketball Pickup Game - Triple Dip",
+      "id": 57630035,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36236,
+      "stage_index": null
+    },
+    {
+      "name": "Basketball Pickup Game - Rim Rattler",
+      "id": 57630036,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36240,
+      "stage_index": null
+    },
+    {
+      "name": "Basketball Pickup Game - Lights Out",
+      "id": 57630037,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36244,
+      "stage_index": null
+    },
+    {
+      "name": "Basketball Pickup Game - Buzzer Beater",
+      "id": 57630038,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36248,
+      "stage_index": null
+    },
+    {
+      "name": "Basketball Pickup Game - Hoop Hero",
+      "id": 57630039,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36252,
+      "stage_index": null
+    },
+    {
+      "name": "Bowling Standard Game - Gobble Gobble",
+      "id": 57630040,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36256,
+      "stage_index": null
+    },
+    {
+      "name": "Bowling Standard Game - Split Spare",
+      "id": 57630041,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36260,
+      "stage_index": null
+    },
+    {
+      "name": "Bowling Standard Game - High Roller",
+      "id": 57630042,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36264,
+      "stage_index": null
+    },
+    {
+      "name": "Bowling Standard Game - Pin Dropper",
+      "id": 57630043,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36268,
+      "stage_index": null
+    },
+    {
+      "name": "Bowling Standard Game - Perfect Game",
+      "id": 57630044,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36272,
+      "stage_index": null
+    },
+    {
+      "name": "Bowling 100-Pin Game - Super Strike",
+      "id": 57630045,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36276,
+      "stage_index": null
+    },
+    {
+      "name": "Bowling 100-Pin Game - Split Spare",
+      "id": 57630046,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36280,
+      "stage_index": null
+    },
+    {
+      "name": "Bowling 100-Pin Game - Off the Wall",
+      "id": 57630047,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36284,
+      "stage_index": null
+    },
+    {
+      "name": "Bowling 100-Pin Game - Secret Strike",
+      "id": 57630048,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36288,
+      "stage_index": null
+    },
+    {
+      "name": "Bowling 100-Pin Game - Pin Dropper",
+      "id": 57630049,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36292,
+      "stage_index": null
+    },
+    {
+      "name": "Bowling Spin Control - One for All",
+      "id": 57630050,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36296,
+      "stage_index": null
+    },
+    {
+      "name": "Bowling Spin Control - Split Spare",
+      "id": 57630051,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36300,
+      "stage_index": null
+    },
+    {
+      "name": "Bowling Spin Control - Head First",
+      "id": 57630052,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36304,
+      "stage_index": null
+    },
+    {
+      "name": "Bowling Spin Control - English Major",
+      "id": 57630053,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36308,
+      "stage_index": null
+    },
+    {
+      "name": "Bowling Spin Control - Pin Dropper",
+      "id": 57630054,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36312,
+      "stage_index": null
+    },
+    {
+      "name": "Canoeing Speed Challenge - Beginner License",
+      "id": 57630055,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36336,
+      "stage_index": null
+    },
+    {
+      "name": "Canoeing Speed Challenge - Intermediate License",
+      "id": 57630056,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36340,
+      "stage_index": null
+    },
+    {
+      "name": "Canoeing Speed Challenge - Expert License",
+      "id": 57630057,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36344,
+      "stage_index": null
+    },
+    {
+      "name": "Canoeing Speed Challenge - Ducks in a Row",
+      "id": 57630058,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36348,
+      "stage_index": null
+    },
+    {
+      "name": "Canoeing Speed Challenge - Cut the Red Tape",
+      "id": 57630059,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36352,
+      "stage_index": null
+    },
+    {
+      "name": "Table Tennis Return Challenge - 50-pointer",
+      "id": 57630060,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36356,
+      "stage_index": null
+    },
+    {
+      "name": "Table Tennis Return Challenge - 100-pointer",
+      "id": 57630061,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36360,
+      "stage_index": null
+    },
+    {
+      "name": "Table Tennis Return Challenge - 200-pointer",
+      "id": 57630062,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36364,
+      "stage_index": null
+    },
+    {
+      "name": "Table Tennis Return Challenge - Recycler",
+      "id": 57630063,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36368,
+      "stage_index": null
+    },
+    {
+      "name": "Table Tennis Return Challenge - Save Face",
+      "id": 57630064,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36372,
+      "stage_index": null
+    },
+    {
+      "name": "Table Tennis Match - In Your Face",
+      "id": 57630065,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36376,
+      "stage_index": null
+    },
+    {
+      "name": "Table Tennis Match - Back from the Brink",
+      "id": 57630066,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36380,
+      "stage_index": null
+    },
+    {
+      "name": "Table Tennis Match - Epic Rally",
+      "id": 57630067,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36384,
+      "stage_index": null
+    },
+    {
+      "name": "Table Tennis Match - Perfectly Matched",
+      "id": 57630068,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36388,
+      "stage_index": null
+    },
+    {
+      "name": "Table Tennis Match - Table Titan",
+      "id": 57630069,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36392,
+      "stage_index": null
+    },
+    {
+      "name": "Wakeboarding - Huge Air",
+      "id": 57630070,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36396,
+      "stage_index": null
+    },
+    {
+      "name": "Wakeboarding - Bag of Tricks",
+      "id": 57630071,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36400,
+      "stage_index": null
+    },
+    {
+      "name": "Wakeboarding - Smooth Landing",
+      "id": 57630072,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36404,
+      "stage_index": null
+    },
+    {
+      "name": "Wakeboarding - Master Carver",
+      "id": 57630073,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36408,
+      "stage_index": null
+    },
+    {
+      "name": "Wakeboarding - The Long Way Home",
+      "id": 57630074,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36412,
+      "stage_index": null
+    },
+    {
+      "name": "Island Flyover - Island Hopper",
+      "id": 57630075,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36416,
+      "stage_index": null
+    },
+    {
+      "name": "Island Flyover - Pop Frenzy",
+      "id": 57630076,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36420,
+      "stage_index": null
+    },
+    {
+      "name": "Island Flyover - Follow That Plane",
+      "id": 57630077,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36424,
+      "stage_index": null
+    },
+    {
+      "name": "Island Flyover - Wuhu Tour Guide",
+      "id": 57630078,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36428,
+      "stage_index": null
+    },
+    {
+      "name": "Island Flyover - Balloonatic",
+      "id": 57630079,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36432,
+      "stage_index": null
+    },
+    {
+      "name": "Golf - Under Par",
+      "id": 57630080,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36456,
+      "stage_index": null
+    },
+    {
+      "name": "Golf - Chip In",
+      "id": 57630081,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36460,
+      "stage_index": null
+    },
+    {
+      "name": "Golf - King of Clubs",
+      "id": 57630082,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36464,
+      "stage_index": null
+    },
+    {
+      "name": "Golf - Ace of Clubs",
+      "id": 57630083,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36468,
+      "stage_index": null
+    },
+    {
+      "name": "Golf - Hole in One",
+      "id": 57630084,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36472,
+      "stage_index": null
+    },
+    {
+      "name": "Frisbee Golf - Under Par",
+      "id": 57630085,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36476,
+      "stage_index": null
+    },
+    {
+      "name": "Frisbee Golf - Lucky Skip",
+      "id": 57630086,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36480,
+      "stage_index": null
+    },
+    {
+      "name": "Frisbee Golf - On a Roll",
+      "id": 57630087,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36484,
+      "stage_index": null
+    },
+    {
+      "name": "Frisbee Golf - Hole in One",
+      "id": 57630088,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36488,
+      "stage_index": null
+    },
+    {
+      "name": "Frisbee Golf - Straight and Narrow",
+      "id": 57630089,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36492,
+      "stage_index": null
+    },
+    {
+      "name": "Cycling Road Race - Last Gasp",
+      "id": 57630090,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36516,
+      "stage_index": null
+    },
+    {
+      "name": "Cycling Road Race - First of Many",
+      "id": 57630091,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36520,
+      "stage_index": null
+    },
+    {
+      "name": "Cycling Road Race - 1-Stage Master",
+      "id": 57630092,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36524,
+      "stage_index": null
+    },
+    {
+      "name": "Cycling Road Race - 3-Stage Master",
+      "id": 57630093,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36528,
+      "stage_index": null
+    },
+    {
+      "name": "Cycling Road Race - 6-Stage Master",
+      "id": 57630094,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36532,
+      "stage_index": null
+    },
+    {
+      "name": "Skydiving - High Five",
+      "id": 57630095,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36536,
+      "stage_index": null
+    },
+    {
+      "name": "Skydiving - For the Birds",
+      "id": 57630096,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36540,
+      "stage_index": null
+    },
+    {
+      "name": "Skydiving - Friends in High Places",
+      "id": 57630097,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36544,
+      "stage_index": null
+    },
+    {
+      "name": "Skydiving - Camera Shy",
+      "id": 57630098,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36548,
+      "stage_index": null
+    },
+    {
+      "name": "Skydiving - 200-Point Dive",
+      "id": 57630099,
+      "category": "stamp",
+      "detect": "word_nonzero",
+      "offset": 36552,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Red Iron Bridge",
+      "id": 57630100,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36584,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Cocoba Hotel",
+      "id": 57630101,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36585,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Cabana Lagoon",
+      "id": 57630102,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36586,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: The Queen Peach",
+      "id": 57630103,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36587,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: The Nineteenth Hole Hotel",
+      "id": 57630104,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36588,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Summerstone Castle",
+      "id": 57630105,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36589,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: The Candle",
+      "id": 57630106,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36590,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Mysterious Ruins",
+      "id": 57630107,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36591,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Wind Orchard",
+      "id": 57630108,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36592,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Swaying Bridge",
+      "id": 57630109,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36593,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Summerstone Falls",
+      "id": 57630110,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36594,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Crab Rock",
+      "id": 57630111,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36595,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Starboard Harbor",
+      "id": 57630112,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36596,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Silk Sands",
+      "id": 57630113,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36597,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Evergreen Grove",
+      "id": 57630114,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36598,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Mountain Monument",
+      "id": 57630115,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36599,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Gateway to Wuhu",
+      "id": 57630116,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36600,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Sugarsand Beach",
+      "id": 57630117,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36601,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Hillside Cabins",
+      "id": 57630118,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36602,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Talon Rock",
+      "id": 57630119,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36603,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Power-Cruising Area",
+      "id": 57630120,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36604,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Camel Rock",
+      "id": 57630121,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36605,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Duckling Lake",
+      "id": 57630122,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36606,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Basketball Court",
+      "id": 57630123,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36607,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Bowling Alley",
+      "id": 57630124,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36608,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Swordplay Colosseum",
+      "id": 57630125,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36609,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Pool Patio",
+      "id": 57630126,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36610,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Frisbee Dog Park",
+      "id": 57630127,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36611,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Wishing Fountain",
+      "id": 57630128,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36612,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Serpent's Mouth",
+      "id": 57630129,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36613,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Beginner's Wakeboarding Area",
+      "id": 57630130,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36614,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Forest Monument",
+      "id": 57630131,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36615,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Golf Area A",
+      "id": 57630132,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36616,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Golf Area B",
+      "id": 57630133,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36617,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Golf Area C",
+      "id": 57630134,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36618,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Off-Road Vehicle",
+      "id": 57630135,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36619,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Toppled Monument",
+      "id": 57630136,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36620,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Hilltop Overlook",
+      "id": 57630137,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36621,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Maka Wuhu",
+      "id": 57630138,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36622,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Heart of Maka Wuhu",
+      "id": 57630139,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36623,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Pirate's Eye",
+      "id": 57630140,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36624,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Island Loop Tunnel #1",
+      "id": 57630141,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36625,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Lava Tube",
+      "id": 57630142,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36626,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Sea Serpent Cavern",
+      "id": 57630143,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36627,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Miguel's Guide Plane",
+      "id": 57630144,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36628,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Broken Clock Tower",
+      "id": 57630145,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36629,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Palm Boulevard",
+      "id": 57630146,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36630,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Heartbreak Peak",
+      "id": 57630147,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36631,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Weathered Monument",
+      "id": 57630148,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36632,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Lone Cedar",
+      "id": 57630149,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36633,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Firework Launch Zone 1",
+      "id": 57630150,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36634,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Firework Launch Zone 2",
+      "id": 57630151,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36635,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Sweet Beach",
+      "id": 57630152,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36636,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Starry Beach",
+      "id": 57630153,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36637,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Tennis Courts",
+      "id": 57630154,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36638,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Beginner's Archery Area",
+      "id": 57630155,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36639,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Needlepoint Spire",
+      "id": 57630156,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36640,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Dead-End Point",
+      "id": 57630157,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36641,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Cliffside Ruins",
+      "id": 57630158,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36642,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Entrance to the Mysterious Ruins",
+      "id": 57630159,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36643,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Barnacle Arch",
+      "id": 57630160,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36644,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Private Island",
+      "id": 57630161,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36645,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Deserted Island",
+      "id": 57630162,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36646,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Island Loop Tunnel #2",
+      "id": 57630163,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36647,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Stillwater Grotto",
+      "id": 57630164,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36648,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Lava Monument",
+      "id": 57630165,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36649,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Mountain Hikers",
+      "id": 57630166,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36650,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Sundown Point",
+      "id": 57630167,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36651,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Runner's Circle",
+      "id": 57630168,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36652,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Footbridge",
+      "id": 57630169,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36653,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Cedar-Tree Tunnel",
+      "id": 57630170,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36654,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Wedge Island Marina",
+      "id": 57630171,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36655,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Whale Watchers",
+      "id": 57630172,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36656,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Diving Spot",
+      "id": 57630173,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36657,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Sportfishing Spot",
+      "id": 57630174,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36658,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Extreme Canoeist",
+      "id": 57630175,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36659,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Undersea-Cable Inspectors",
+      "id": 57630176,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36660,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: The Whale Shark",
+      "id": 57630177,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36661,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: Seaplane Team",
+      "id": 57630178,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36662,
+      "stage_index": null
+    },
+    {
+      "name": "iPoint: The Sea Caddy",
+      "id": 57630179,
+      "category": "ipoint",
+      "detect": "byte_not_ff",
+      "offset": 36663,
+      "stage_index": null
+    },
+    {
+      "name": "Swordplay Showdown Clear: Bridge",
+      "id": 57630180,
+      "category": "showdown_clear",
+      "detect": "showdown_live",
+      "offset": null,
+      "stage_index": 0
+    },
+    {
+      "name": "Swordplay Showdown Clear: Lighthouse",
+      "id": 57630181,
+      "category": "showdown_clear",
+      "detect": "showdown_live",
+      "offset": null,
+      "stage_index": 1
+    },
+    {
+      "name": "Swordplay Showdown Clear: Beach",
+      "id": 57630182,
+      "category": "showdown_clear",
+      "detect": "showdown_live",
+      "offset": null,
+      "stage_index": 2
+    },
+    {
+      "name": "Swordplay Showdown Clear: Mountain",
+      "id": 57630183,
+      "category": "showdown_clear",
+      "detect": "showdown_live",
+      "offset": null,
+      "stage_index": 3
+    },
+    {
+      "name": "Swordplay Showdown Clear: Forest",
+      "id": 57630184,
+      "category": "showdown_clear",
+      "detect": "showdown_live",
+      "offset": null,
+      "stage_index": 4
+    },
+    {
+      "name": "Swordplay Showdown Clear: Ruins",
+      "id": 57630185,
+      "category": "showdown_clear",
+      "detect": "showdown_live",
+      "offset": null,
+      "stage_index": 5
+    },
+    {
+      "name": "Swordplay Showdown Clear: Waterfall",
+      "id": 57630186,
+      "category": "showdown_clear",
+      "detect": "showdown_live",
+      "offset": null,
+      "stage_index": 6
+    },
+    {
+      "name": "Swordplay Showdown Clear: Cliffs",
+      "id": 57630187,
+      "category": "showdown_clear",
+      "detect": "showdown_live",
+      "offset": null,
+      "stage_index": 7
+    },
+    {
+      "name": "Swordplay Showdown Clear: Castle",
+      "id": 57630188,
+      "category": "showdown_clear",
+      "detect": "showdown_live",
+      "offset": null,
+      "stage_index": 8
+    },
+    {
+      "name": "Swordplay Showdown Clear: Volcano",
+      "id": 57630189,
+      "category": "showdown_clear",
+      "detect": "showdown_live",
+      "offset": null,
+      "stage_index": 9
+    },
+    {
+      "name": "Swordplay Showdown Clear: Bridge Reverse",
+      "id": 57630190,
+      "category": "showdown_clear",
+      "detect": "showdown_live",
+      "offset": null,
+      "stage_index": 10
+    },
+    {
+      "name": "Swordplay Showdown Clear: Lighthouse Reverse",
+      "id": 57630191,
+      "category": "showdown_clear",
+      "detect": "showdown_live",
+      "offset": null,
+      "stage_index": 11
+    },
+    {
+      "name": "Swordplay Showdown Clear: Beach Reverse",
+      "id": 57630192,
+      "category": "showdown_clear",
+      "detect": "showdown_live",
+      "offset": null,
+      "stage_index": 12
+    },
+    {
+      "name": "Swordplay Showdown Clear: Mountain Reverse",
+      "id": 57630193,
+      "category": "showdown_clear",
+      "detect": "showdown_live",
+      "offset": null,
+      "stage_index": 13
+    },
+    {
+      "name": "Swordplay Showdown Clear: Forest Reverse",
+      "id": 57630194,
+      "category": "showdown_clear",
+      "detect": "showdown_live",
+      "offset": null,
+      "stage_index": 14
+    },
+    {
+      "name": "Swordplay Showdown Clear: Ruins Reverse",
+      "id": 57630195,
+      "category": "showdown_clear",
+      "detect": "showdown_live",
+      "offset": null,
+      "stage_index": 15
+    },
+    {
+      "name": "Swordplay Showdown Clear: Waterfall Reverse",
+      "id": 57630196,
+      "category": "showdown_clear",
+      "detect": "showdown_live",
+      "offset": null,
+      "stage_index": 16
+    },
+    {
+      "name": "Swordplay Showdown Clear: Cliffs Reverse",
+      "id": 57630197,
+      "category": "showdown_clear",
+      "detect": "showdown_live",
+      "offset": null,
+      "stage_index": 17
+    },
+    {
+      "name": "Swordplay Showdown Clear: Castle Reverse",
+      "id": 57630198,
+      "category": "showdown_clear",
+      "detect": "showdown_live",
+      "offset": null,
+      "stage_index": 18
+    },
+    {
+      "name": "Swordplay Showdown Clear: Volcano Reverse",
+      "id": 57630199,
+      "category": "showdown_clear",
+      "detect": "showdown_live",
+      "offset": null,
+      "stage_index": 19
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+name: Build and Release
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate canonical data
+        run: python apworld/data.py
+
+      - name: Run standalone tests
+        run: python -m unittest discover -s pc-client -p "test_*.py"
+
+      - name: Install release builder
+        run: python -m pip install pyinstaller
+
+      - name: Build apworld
+        run: python scripts/build_apworld.py
+
+      - name: Build bridge executable
+        run: python scripts/build_executables.py --skip-helper
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wii-sports-resort-build
+          path: |
+            dist/wii_sports_resort.apworld
+            dist/WSR Dolphin Bridge.exe
+
+      - name: Restore private Mii database
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          RFL_DB_DAT_BASE64: ${{ secrets.RFL_DB_DAT_BASE64 }}
+        shell: pwsh
+        run: |
+          if ([string]::IsNullOrWhiteSpace($env:RFL_DB_DAT_BASE64)) {
+            throw "Missing RFL_DB_DAT_BASE64 repository secret."
+          }
+          [IO.File]::WriteAllBytes("helpers/RFL_DB.dat", [Convert]::FromBase64String($env:RFL_DB_DAT_BASE64))
+
+      - name: Build setup executable
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: python scripts/build_executables.py
+
+      - name: Create GitHub release
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: pwsh
+        run: gh release create $env:GITHUB_REF_NAME dist/wii_sports_resort.apworld "dist/WSR Dolphin Bridge.exe" "dist/WSR Dolphin Setup.exe" apworld/docs/RZTE01.map --generate-notes
