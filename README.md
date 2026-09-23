@@ -27,6 +27,7 @@ See [the setup guide](apworld/docs/setup_en.md) for player setup.
 
 The reverse-engineering symbol reference is available at
 `apworld/docs/RZTE01.map` and is included in the `.apworld` archive.
+(Please note that symbol names are **provisional** and not confirmed.)
 
 ## Build Without an Archipelago Clone
 
