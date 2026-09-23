@@ -46,13 +46,39 @@ jobs:
       - name: Restore private Mii database
         if: startsWith(github.ref, 'refs/tags/v')
         env:
-          RFL_DB_DAT_BASE64: ${{ secrets.RFL_DB_DAT_BASE64 }}
+          RFL_01: ${{ secrets.RFL_DB_DAT_BASE64_01 }}
+          RFL_02: ${{ secrets.RFL_DB_DAT_BASE64_02 }}
+          RFL_03: ${{ secrets.RFL_DB_DAT_BASE64_03 }}
+          RFL_04: ${{ secrets.RFL_DB_DAT_BASE64_04 }}
+          RFL_05: ${{ secrets.RFL_DB_DAT_BASE64_05 }}
+          RFL_06: ${{ secrets.RFL_DB_DAT_BASE64_06 }}
+          RFL_07: ${{ secrets.RFL_DB_DAT_BASE64_07 }}
+          RFL_08: ${{ secrets.RFL_DB_DAT_BASE64_08 }}
+          RFL_09: ${{ secrets.RFL_DB_DAT_BASE64_09 }}
+          RFL_10: ${{ secrets.RFL_DB_DAT_BASE64_10 }}
+          RFL_11: ${{ secrets.RFL_DB_DAT_BASE64_11 }}
+          RFL_12: ${{ secrets.RFL_DB_DAT_BASE64_12 }}
+          RFL_13: ${{ secrets.RFL_DB_DAT_BASE64_13 }}
+          RFL_14: ${{ secrets.RFL_DB_DAT_BASE64_14 }}
+          RFL_15: ${{ secrets.RFL_DB_DAT_BASE64_15 }}
+          RFL_16: ${{ secrets.RFL_DB_DAT_BASE64_16 }}
+          RFL_17: ${{ secrets.RFL_DB_DAT_BASE64_17 }}
+          RFL_18: ${{ secrets.RFL_DB_DAT_BASE64_18 }}
+          RFL_19: ${{ secrets.RFL_DB_DAT_BASE64_19 }}
+          RFL_20: ${{ secrets.RFL_DB_DAT_BASE64_20 }}
+          RFL_21: ${{ secrets.RFL_DB_DAT_BASE64_21 }}
+          RFL_22: ${{ secrets.RFL_DB_DAT_BASE64_22 }}
+          RFL_23: ${{ secrets.RFL_DB_DAT_BASE64_23 }}
         shell: pwsh
         run: |
-          if ([string]::IsNullOrWhiteSpace($env:RFL_DB_DAT_BASE64)) {
-            throw "Missing RFL_DB_DAT_BASE64 repository secret."
+          $chunks = 1..23 | ForEach-Object {
+            [Environment]::GetEnvironmentVariable(("RFL_{0:D2}" -f $_))
           }
-          [IO.File]::WriteAllBytes("helpers/RFL_DB.dat", [Convert]::FromBase64String($env:RFL_DB_DAT_BASE64))
+          if ($chunks | Where-Object { [string]::IsNullOrWhiteSpace($_) }) {
+            throw "Missing one or more RFL_DB_DAT_BASE64_XX repository secrets."
+          }
+          $base64 = $chunks -join ""
+          [IO.File]::WriteAllBytes("helpers/RFL_DB.dat", [Convert]::FromBase64String($base64))
 
       - name: Build setup executable
         if: startsWith(github.ref, 'refs/tags/v')

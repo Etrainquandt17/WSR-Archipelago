@@ -58,16 +58,13 @@ embedded inside the setup executable, and `RZTE01.ini` is generated in the
 selected Dolphin user folder.
 
 `RFL_DB.dat` is intentionally excluded from source control. Release builds
-bundle it only in `WSR Dolphin Setup.exe` from the GitHub repository secret
-`RFL_DB_DAT_BASE64`. Before pushing a release tag, create that secret from a
-Base64 encoding of the local file:
+bundle it only in `WSR Dolphin Setup.exe` from chunked GitHub repository
+secrets. The build uses 23 secrets named `RFL_DB_DAT_BASE64_01` through
+`RFL_DB_DAT_BASE64_23`; this is necessary because one Base64 encoding exceeds
+GitHub's 48 KB secret limit. The publishing setup creates those secrets from
+the local file automatically.
 
-```powershell
-[Convert]::ToBase64String([IO.File]::ReadAllBytes("helpers\RFL_DB.dat"))
-```
-
-Add the resulting text at **GitHub repository Settings → Secrets and variables
-→ Actions → New repository secret**, named `RFL_DB_DAT_BASE64`.
+Do not commit `RFL_DB.dat` or print the secret chunks in terminal output.
 
 ## Client Dependencies
 
