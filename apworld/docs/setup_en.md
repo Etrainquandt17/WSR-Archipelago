@@ -207,7 +207,11 @@ locations (e.g. `Swordplay Showdown - Sword Fighter`). The built-in
 
 ## Connecting the Client
 
-With Dolphin running and the game loaded, start the bridge:
+With Dolphin running and the game loaded, double-click `WSR.Dolphin.Bridge.exe`.
+It asks for your server address, slot name, and optional password. Keep its
+console window open while you play.
+
+For source/developer use, start the bridge with:
 
 ```bash
 python pc-client/dolphin_bridge.py --server ADDRESS:PORT --name YourName

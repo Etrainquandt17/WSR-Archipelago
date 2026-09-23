@@ -30,11 +30,13 @@ def main() -> None:
     run_pyinstaller([
         "--onefile",
         "--console",
-        "--name", "WSR Dolphin Bridge",
+        "--clean",
+        "--name", "WSR.Dolphin.Bridge",
         "--distpath", str(output_directory),
         "--workpath", str(work_directory),
         "--specpath", str(specification_directory),
         "--add-data", f"{REPOSITORY_ROOT / 'apworld' / 'data.py'};apworld",
+        "--collect-all", "dolphin_memory_engine",
         "--paths", str(REPOSITORY_ROOT / "pc-client"),
         str(REPOSITORY_ROOT / "pc-client" / "dolphin_bridge.py"),
     ])
@@ -52,7 +54,8 @@ def main() -> None:
     run_pyinstaller([
         "--onefile",
         "--windowed",
-        "--name", "WSR Dolphin Setup",
+        "--clean",
+        "--name", "WSR.Dolphin.Setup",
         "--distpath", str(output_directory),
         "--workpath", str(work_directory),
         "--specpath", str(specification_directory),

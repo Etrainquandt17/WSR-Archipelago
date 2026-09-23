@@ -51,7 +51,7 @@ python -m pip install pyinstaller
 python scripts/build_executables.py
 ```
 
-This produces `WSR Dolphin Bridge.exe` and `WSR Dolphin Setup.exe` in `dist/`.
+This produces `WSR.Dolphin.Bridge.exe` and `WSR.Dolphin.Setup.exe` in `dist/`.
 The bridge opens a connection dialog when double-clicked. The setup executable
 opens the Dolphin folder picker described in the setup guide. `RFL_DB.dat` is
 embedded inside the setup executable, and `RZTE01.ini` is generated in the
@@ -72,7 +72,12 @@ Do not commit `RFL_DB.dat` or print the secret chunks in terminal output.
 python -m pip install -r pc-client/requirements.txt
 ```
 
-Run the bridge after starting Dolphin and loading Wii Sports Resort:
+Players should use the release `WSR.Dolphin.Bridge.exe`: double-click it and
+enter the server address, slot name, and optional password in the dialog. Keep
+its console open while playing.
+
+For source/developer use, run the bridge after starting Dolphin and loading Wii
+Sports Resort:
 
 ```powershell
 python pc-client/dolphin_bridge.py --server ADDRESS:PORT --name YourName

@@ -41,7 +41,7 @@ jobs:
           name: wii-sports-resort-build
           path: |
             dist/wii_sports_resort.apworld
-            dist/WSR Dolphin Bridge.exe
+            dist/WSR.Dolphin.Bridge.exe
 
       - name: Restore private Mii database
         if: startsWith(github.ref, 'refs/tags/v')
@@ -89,4 +89,4 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         shell: pwsh
-        run: gh release create $env:GITHUB_REF_NAME dist/wii_sports_resort.apworld "dist/WSR Dolphin Bridge.exe" "dist/WSR Dolphin Setup.exe" apworld/docs/RZTE01.map --generate-notes
+        run: gh release create $env:GITHUB_REF_NAME dist/wii_sports_resort.apworld "dist/WSR.Dolphin.Bridge.exe" "dist/WSR.Dolphin.Setup.exe" --generate-notes
