@@ -201,6 +201,7 @@ class GameStateApplier:
         self._apply_cycling(received_counts)
         self._apply_hearts(received_counts)
         self._apply_can_score(received_counts)
+        self._apply_no_plane_crash(received_counts)
 
     def _enforce_locked_modes(self, save_buffer: int) -> None:
         for _name, offset in data.ALWAYS_LOCKED_GAMEMODES:
@@ -248,6 +249,12 @@ class GameStateApplier:
         value = data.BASE_CAN_SCORE + count * data.SCORE_PER_CAN_SCORE_UPGRADE
         if self._memory.read_u32_be(data.CAN_SCORE_ADDRESS) != value:
             self._memory.write_bytes(data.CAN_SCORE_ADDRESS, value.to_bytes(4, "big"))
+
+    def _apply_no_plane_crash(self, received_counts: Counter) -> None:
+        if received_counts.get(data.NO_PLANE_CRASH_ITEM, 0) <= 0:
+            return
+        if self._memory.read_u8(data.NO_PLANE_CRASH_MAILBOX_ADDRESS) != 1:
+            self._memory.write_byte(data.NO_PLANE_CRASH_MAILBOX_ADDRESS, 1)
 
 
 def _is_finite(value: float) -> bool:

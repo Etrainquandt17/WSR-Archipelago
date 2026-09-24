@@ -208,6 +208,21 @@ target = 3 + received_count       # count clamped to 0..7
 The bridge continuously writes the target value while connected so game reloads
 or mode transitions do not restore the default.
 
+## Island Flyover no-plane-crash upgrade
+
+A Gecko hook can suppress the Island Flyover plane crash on hard landings. It
+reads a single boolean byte:
+
+```
+NO_PLANE_CRASH_MAILBOX_ADDRESS = 0x817FFFF1
+```
+
+The **Island Flyover No Plane Crash Upgrade** item is not progressive; a single
+copy exists in the pool. Once received, the bridge writes `1` to the mailbox
+and keeps it there for the rest of the session. Unlike the other mailboxes,
+receiving it more than once (e.g. via `--items_handling` replay) has no
+additional effect since the value only ever needs to be `0` or `1`.
+
 ## Stamp logic notes
 
 - **Frisbee Golf - Lucky Skip** requires **Frisbee Golf: Resort C (3-Hole)**,

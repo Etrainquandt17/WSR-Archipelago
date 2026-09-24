@@ -18,6 +18,13 @@ C2639FA0 00000004
 Archipelago - Swordplay Showdown Next Stage Opens Change Stage
 04278908 418200E8
 
+Archipelago - Island Flyover No Plane Crash Upgrade
+C243124C 00000004
+3D808180 898CFFF1
+2C0C0001 41820008
+60000080 540006F0
+B00304FC 00000000
+
 Alternatively run WSR Dolphin Setup.exe to install everything
 automatically. The helper opens a folder picker. Select either your Dolphin user
 folder (usually `Documents/Dolphin Emulator`) or the `User` folder inside a
@@ -199,10 +206,10 @@ locations (e.g. `Swordplay Showdown - Sword Fighter`). The built-in
 ## Preparing Dolphin
 
 1. Open Dolphin and enable **Config → General → Enable Cheats**.
-2. install the Gecko hook that reads the heart mailbox as well as the
-   gecko code that redirects the next stage in Swordplay Showdown to change
-   stage. For the codes themselves look above at information about gecko
-   codes.
+2. install the Gecko hooks that read the heart mailbox, redirect the next
+   stage in Swordplay Showdown to change stage, and suppress the Island
+   Flyover plane crash. For the codes themselves look above at information
+   about gecko codes.
 3. Boot **Wii Sports Resort (`RZTE01`)** and load your fresh save file.
 
 ## Connecting the Client
@@ -235,6 +242,7 @@ The bridge will:
 - unlock the gamemodes, stages, courses, and difficulties you receive,
 - keep the always-locked VS / Dogfight modes disabled,
 - apply Cycling Stamina, Swordplay Showdown Heart, and Table Tennis Can Score upgrades,
+- apply the Island Flyover No Plane Crash Upgrade,
 - send checks for stamps, iPoints, and live Swordplay Showdown clears,
 - report your goal to the server when it is met.
 

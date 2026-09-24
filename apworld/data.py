@@ -38,10 +38,14 @@ CAN_SCORE_ADDRESS = 0x806F2304
 BASE_CAN_SCORE = 3
 SCORE_PER_CAN_SCORE_UPGRADE = 1
 MAX_CAN_SCORE_UPGRADES = 7
+# Island Flyover no-plane-crash mailbox consumed by the installed Gecko hook.
+# 1 = upgrade received (no longer crashes the plane on hard landings).
+NO_PLANE_CRASH_MAILBOX_ADDRESS = 0x817FFFF1
 
 PROGRESSIVE_CYCLING_ITEM = "Progressive Cycling Stamina Upgrade"
 PROGRESSIVE_HEARTS_ITEM = "Progressive Swordplay Showdown Heart Upgrade"
 PROGRESSIVE_CAN_SCORE_ITEM = "Progressive Table Tennis Can Score Upgrade"
+NO_PLANE_CRASH_ITEM = "Island Flyover No Plane Crash Upgrade"
 FILLER_ITEM = "Nothing"
 
 VICTORY_ITEM = "Victory"
@@ -458,6 +462,7 @@ for _group in (
 _add_item(PROGRESSIVE_CYCLING_ITEM, "progressive_cycling", "useful")
 _add_item(PROGRESSIVE_HEARTS_ITEM, "progressive_hearts", "useful")
 _add_item(PROGRESSIVE_CAN_SCORE_ITEM, "progressive_can_score", "useful")
+_add_item(NO_PLANE_CRASH_ITEM, "no_plane_crash", "useful")
 _add_item(FILLER_ITEM, "filler", "filler")
 
 ITEM_NAME_TO_ID = {entry["name"]: entry["id"] for entry in ITEM_TABLE}

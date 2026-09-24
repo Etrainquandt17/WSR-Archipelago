@@ -143,6 +143,7 @@ class WiiSportsResortWorld(World):
             pool.append(self.create_item(data.PROGRESSIVE_HEARTS_ITEM))
         for _ in range(data.MAX_CAN_SCORE_UPGRADES):
             pool.append(self.create_item(data.PROGRESSIVE_CAN_SCORE_ITEM))
+        pool.append(self.create_item(data.NO_PLANE_CRASH_ITEM))
 
         total_locations = len(self.active_location_names)
         while len(pool) < total_locations:

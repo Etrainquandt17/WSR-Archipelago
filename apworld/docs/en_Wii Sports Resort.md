@@ -34,9 +34,10 @@ chosen category, or earn all 100 stamps.
 ## What "items" can appear in another player's world?
 
 Gamemode, stage, course, and difficulty unlocks, plus Progressive Cycling
-Stamina Upgrades, Progressive Swordplay Showdown Heart Upgrades, and
-Progressive Table Tennis Can Score Upgrades. Everything else is filler
-(`Nothing`). (Please help us come up with more ideas for filler other than nothing.)
+Stamina Upgrades, Progressive Swordplay Showdown Heart Upgrades, Progressive
+Table Tennis Can Score Upgrades, and a single Island Flyover No Plane Crash
+Upgrade. Everything else is filler (`Nothing`). (Please help us come up with
+more ideas for filler other than nothing.)
 
 ## How do I play?
 

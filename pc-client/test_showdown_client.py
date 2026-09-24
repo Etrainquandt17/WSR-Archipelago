@@ -1,6 +1,7 @@
 import struct
 import unittest
 
+import dolphin_bridge
 from showdown_client import (
     CompletionDetector,
     diagnostic_messages,
@@ -31,6 +32,12 @@ class FakeMemory:
             else self.values[address]
         )
         return struct.pack(">I", value)
+
+    def read_u8(self, address):
+        return self.values.get(address, 0)
+
+    def write_byte(self, address, value):
+        self.values[address] = value & 0xFF
 
 
 class ShowdownClientTests(unittest.TestCase):
@@ -169,6 +176,24 @@ class ShowdownClientTests(unittest.TestCase):
             diagnostic_messages((0x81358C84, 0, 35, 35), snapshot, True),
             [format_progress(0, 35, 35)],
         )
+
+
+class DolphinBridgeItemApplierTests(unittest.TestCase):
+    def test_applies_island_flyover_no_plane_crash_upgrade(self):
+        memory = FakeMemory({})
+        applier = dolphin_bridge.GameStateApplier(memory)
+
+        applier._apply_no_plane_crash({"Island Flyover No Plane Crash Upgrade": 1})
+
+        self.assertEqual(memory.read_u8(0x817FFFF1), 1)
+
+    def test_does_not_write_no_plane_crash_mailbox_when_not_received(self):
+        memory = FakeMemory({})
+        applier = dolphin_bridge.GameStateApplier(memory)
+
+        applier._apply_no_plane_crash({})
+
+        self.assertEqual(memory.read_u8(0x817FFFF1), 0)
 
 
 if __name__ == "__main__":

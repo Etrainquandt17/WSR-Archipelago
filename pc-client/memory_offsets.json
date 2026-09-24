@@ -27,6 +27,7 @@
   "cycling_drain_address": 2154809376,
   "showdown_heart_mailbox_address": 2172649456,
   "can_score_address": 2154767108,
+  "no_plane_crash_mailbox_address": 2172649457,
   "items": [
     {
       "name": "Swordplay Showdown",
@@ -551,8 +552,14 @@
       "offset": null
     },
     {
-      "name": "Nothing",
+      "name": "Island Flyover No Plane Crash Upgrade",
       "id": 57530087,
+      "kind": "no_plane_crash",
+      "offset": null
+    },
+    {
+      "name": "Nothing",
+      "id": 57530088,
       "kind": "filler",
       "offset": null
     }
